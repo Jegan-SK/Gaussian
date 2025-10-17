@@ -22,7 +22,7 @@ Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: 
 RegisterNumber: 
 */
-```
+
 import numpy as np
 import sys
 n=int(input())
@@ -46,6 +46,8 @@ for i in range(n-2,-1,-1):
     x[i]=x[i]/a[i][i]
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
+```
+
 
 ## Output:
 <img width="782" height="441" alt="image" src="https://github.com/user-attachments/assets/e4ac9cea-19d4-44c0-bef1-c714313d757e" />
